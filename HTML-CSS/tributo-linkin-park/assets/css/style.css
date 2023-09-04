@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(-45deg, rgb(58, 57, 57), #f7e9c6);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7rem;
+}
+.header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.chester {
+    box-shadow: 0px 0px 10px black ;
+    width: 500px;
+    border-radius: 10px;
+    max-width: 90%;
+}
+.header h1 img {
+    width: 4rem;
+}
+.section1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section1:hover {
+    background-color: #a59d89;
+    color: white;
+}
+.biography {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 1.5s, color 1.5s;
+}
+.biography h1,
+.albums_title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.biography img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.biography p {
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+.legado {
+    background-image: url(https://media.tenor.com/FchbqutQ8GAAAAAd/chester-bennington-linkin-park.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dddcda;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.maneirin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.albums {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.albums_title {
+    font-family: 'Poppins', sans-serif;
+}
+.images { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.imagens_config {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-45deg, rgb(58, 57, 57), #b1a891);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 0 10px 0 10px;
+    filter: blur(3px);
+    transition: filter 0.5s ease;
+}
+.imagens_config:hover {
+    background-image: linear-gradient(-60deg, rgb(218, 228, 223), #19181b);
+    transform: scale(1.2);
+    border-radius: 20px;
+    filter: none; 
+}
+.foto {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 9px;
+}
+figcaption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:visited {
+    color:black;
+}
+.obs {
+    color: #a4a0a7;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #19181b;
+}
+.destaque {
+    color: red;
+}
+.gif {
+    background-image: url(https://i.pinimg.com/originals/23/38/e1/2338e142d0aa5507e379443e027a46f7.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #dddcda;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.baixo {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.info h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.658);
+}
+.info ul {
+    color: rgb(41, 41, 41);
+    text-shadow: 1px 1px 3px rgb(95, 93, 93);
+    text-align: center;
+    list-style:none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.conquistas {
+    margin: 5px;
+    flex: 1;
+    background-image: linear-gradient(-45deg, rgba(80, 79, 79, 0.719), #b1a891bd);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.conquistas h1 {
+    color: rgb(41, 41, 41);
+    text-shadow: 1px 1px 3px rgb(95, 93, 93);
+}
+.conquistas_img {
+    width: 25px;
+    
+}
+.maneiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.maneiro ol li {
+    padding-bottom: 5px;
+    color: rgb(41, 41, 41);
+    text-shadow: 1px 1px 3px rgb(95, 93, 93);
+}
+.meio {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+    background-image: linear-gradient(-32deg, rgba(80, 79, 79, 0.719), #b1a891bd);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 35px 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.conquistas h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.836);
+    text-shadow: 0px 0px 9px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+.formulario label {
+    width: 100%;
+    text-align: center;
+}
+.formulario input {
+    margin-top: 10px;
+    background-color: #747066;
+    border-radius: 8px;
+    color: white;
+}
+.formulario button {
+    width: 100%;
+    background-image: linear-gradient(-45deg, rgba(80, 79, 79, 0.719), #b1a891bd);
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+.formulario button:hover {
+    cursor: pointer;
+}
+.rodape {
+    background-color: #242323;
+    padding: 10px;
+    text-align: center;
+    color: #e9e9e9;
+    text-transform: uppercase;
+}
+@media (max-width: 420px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .albums_title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .gif h1, 
+    .legado h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .imagens_config {
+        filter: none;
+    }
+}
+@media (min-width:420px) and (max-width: 540px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .albums_title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .gif h1, 
+    .legado h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+@media (min-width:540px) and (max-width: 650px) {
+    .info {
+        flex-direction: column;
+    }
+    .albums_title {
+        font-size: 2.5rem;
+    }
+}
+
