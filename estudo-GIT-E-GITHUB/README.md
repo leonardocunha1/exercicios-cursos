@@ -34,9 +34,13 @@
 print("Olá, mundo!")
 ```
 
+![fc8a8bf45c178fe85e5e3633b09335f2](https://github.com/leonardocunha1/exercicios-cursos/assets/139728213/1c96cf04-d690-42a0-bd17-eb6c0899bbbc)
+
+Para inserir este tipo de imagem, é só clicar em attach files by... no canto inferior da tela 
+
 > Isso é uma citação.
 
-![Screenshot_7](https://github.com/leonardocunha1/HTML-CSS/assets/139728213/55d69cb8-64a6-488e-afc2-2136d9f43768)
 
 [Link para emojis](https://github.com/ikatyang/emoji-cheat-sheet). Também pode ser usado o atalho win + .
- 
+
+ Estudar mais em: https://www.youtube.com/watch?v=LntSB-gl-ZI&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=10
