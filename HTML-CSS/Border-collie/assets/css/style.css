@@ -23,7 +23,10 @@ header {
     border-top: 7px solid rgb(56, 50, 42);
     padding: 10px 10%;
 }
-header img {
+.header-img {
+    display: none;
+}
+.header-logo {
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -227,9 +230,15 @@ header ul a:hover {
     .area3-text {
         padding: 90px 50px;
     }
+    header ul a {
+        margin-right: 20px;
+    }
 }
 
-@media (max-width:768px) {
+@media (min-width:426px) and (max-width:768px) {
+    header ul a {
+        margin-right: 0px;
+    }
     .area3-text {
         padding: 90px 50px;
     }
@@ -242,10 +251,66 @@ header ul a:hover {
     .area2-content p {
         font-size: 14px;
     }
+    .area4 {
+        padding: 20px 20px;
+    }
     .area4-content {
         flex-direction: column;
     }
 }
+@media (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+    .header-img {
+        display: block;
+    }
+    .header-img img {
+        width: 35px;
+    }
+    .banner-content {
+        padding: 0 0 0 20px;
+    }
+    .banner-content-text1 {
+        display: none;
+    }
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+    .area2-text {
+        padding: 90px 30px
+    }
+    .area2-text h2 {
+        font-size: 30px;
+    }
+    .area2-img1 {
+        background-image: url('../images/img1.jpg');
+        background-position: bottom;
+        height: 300px;
+    }
+    
+    .area3 {
+        grid-template-columns: 1fr;
+    }
+    .area3-text {
+        padding: 90px 20px;
+    }
+    .area3-img1 {
+        /* grid-column: 1 / 2;
+        grid-row: 2 / 3; */
+        height: 300px;
+    }
 
+    .area4-content {
+        flex-direction: column;
+    }
+    .area4-qualquercoisa,
+    .area4-subscribe {
+        display: none;
+    }
+    .area4-social {
+        background-color: black;
+    }
+}
 /* FALTA DEIXAR RESPONSIVO PARA CELULAR */
 
