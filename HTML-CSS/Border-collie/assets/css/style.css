@@ -121,6 +121,13 @@ header ul a:hover {
     background-color: black;
     color: white;
 }
+.area2-bar {
+    width: 250px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: none;
+}
 .area2-text {
     padding: 90px 130px;
 }
@@ -266,7 +273,11 @@ header ul a:hover {
         display: block;
     }
     .header-img img {
-        width: 35px;
+        width: 28px;
+    }
+    .header-logo {
+        width: 50px;
+        height: 50px;
     }
     .banner-content {
         padding: 0 0 0 20px;
@@ -274,14 +285,29 @@ header ul a:hover {
     .banner-content-text1 {
         display: none;
     }
+    .banner-content-text h1 {
+        font-size: 20px;
+    }
+    .caes {
+        font-size: 70px;
+    }
+
     .area2 {
         grid-template-columns: 1fr;
+    }
+    .area2-bar {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .area2-content {
+        font-size: 14px;
     }
     .area2-text {
         padding: 90px 30px
     }
     .area2-text h2 {
         font-size: 30px;
+        text-align: center;
     }
     .area2-img1 {
         background-image: url('../images/img1.jpg');
