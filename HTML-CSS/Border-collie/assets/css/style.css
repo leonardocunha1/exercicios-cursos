@@ -36,9 +36,15 @@ header ul a {
     list-style: none;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
 }
 header ul a:last-child {
     margin-right: 0;
+}
+header ul a:hover {
+    background-color: black;
+    color: white;
 }
 
 
